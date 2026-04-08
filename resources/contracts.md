@@ -4,7 +4,7 @@
 
 | Component | Address |
 |-----------|---------|
-| **Program ID** | `45Jwc6unadj52ZEMd7HRcmkqQ4rpHaSxy628dDzKo4xR` |
+| **Program ID** | `9NoPHr2fKNkrVx6maWGRa4v6oN2BBC4RuaPV3B8LXT7g` |
 | GlobalState PDA | Derived from `["global_state"]` |
 | DepositVault PDA | Derived from `["deposit_vault"]` |
 | Merkle Tree | Created during initialization |
@@ -14,7 +14,7 @@
 ```typescript
 import { PublicKey } from "@solana/web3.js";
 
-const PROGRAM_ID = new PublicKey("45Jwc6unadj52ZEMd7HRcmkqQ4rpHaSxy628dDzKo4xR");
+const PROGRAM_ID = new PublicKey("9NoPHr2fKNkrVx6maWGRa4v6oN2BBC4RuaPV3B8LXT7g");
 
 // GlobalState
 const [globalState] = PublicKey.findProgramAddressSync(
@@ -79,7 +79,7 @@ const [marketPda] = PublicKey.findProgramAddressSync(
 
 ```bash
 # Devnet
-solana program show 45Jwc6unadj52ZEMd7HRcmkqQ4rpHaSxy628dDzKo4xR --url devnet
+solana program show 9NoPHr2fKNkrVx6maWGRa4v6oN2BBC4RuaPV3B8LXT7g --url devnet
 
 # Mainnet
 solana program show <PROGRAM_ID> --url mainnet-beta
@@ -128,8 +128,8 @@ The program IDL is available at:
 
 ### View Program
 
-- [Solscan (Devnet)](https://solscan.io/account/45Jwc6unadj52ZEMd7HRcmkqQ4rpHaSxy628dDzKo4xR?cluster=devnet)
-- [Solana Explorer (Devnet)](https://explorer.solana.com/address/45Jwc6unadj52ZEMd7HRcmkqQ4rpHaSxy628dDzKo4xR?cluster=devnet)
+- [Solscan (Devnet)](https://solscan.io/account/9NoPHr2fKNkrVx6maWGRa4v6oN2BBC4RuaPV3B8LXT7g?cluster=devnet)
+- [Solana Explorer (Devnet)](https://explorer.solana.com/address/9NoPHr2fKNkrVx6maWGRa4v6oN2BBC4RuaPV3B8LXT7g?cluster=devnet)
 
 ### View Transactions
 

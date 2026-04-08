@@ -279,7 +279,7 @@ The program doesn't have a built-in pause. For emergencies:
 
 | Component | Address |
 |-----------|---------|
-| Program ID | `45Jwc6unadj52ZEMd7HRcmkqQ4rpHaSxy628dDzKo4xR` |
+| Program ID | `9NoPHr2fKNkrVx6maWGRa4v6oN2BBC4RuaPV3B8LXT7g` |
 | GlobalState | (derived PDA) |
 | DepositVault | (derived PDA) |
 
